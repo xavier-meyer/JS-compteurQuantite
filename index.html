@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-siteCompteurPanier</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <span id="panier"><img src="./images/panier-achat.png" class="img-size"></span>  
+    </header>
+    <section id="id-section" class="row mx-0 d-flex justify-content-center align-items-center">
+        <h2 class="text-center my-3">Veuillez choisir un panier</h2>
+        <div id="card1" class="d-flex justify-content-center align-items-center flex-column col-10 col-md-4">
+            <img src="./images/produits.jpg" class="col-8">
+            <div class="d-flex justify-content-center my-4">
+                <button type="button" class="btn btn-success" id="button-less">-</button>
+                <input class="mx-3 text-center" type="number" name="numberOfProducts" id="numberOfProducts" class="my-4 mx-3" min="0" max="99" value="0"> 
+                <button type="button" class="btn btn-success" id="button-more">+</button>
+            </div>    
+            <span id="avertissement"></span>
+            <button type="button" class="btn btn-secondary my-4" id="button-reset" class="col-4">reset</button>
+            <button type="button" class="btn btn-primary my-3" id="button-commander">commander</button>
+            <span id="txt-cmd"></span>    
+        </div>
+        </div>    
+        <div id="card2" class="d-flex justify-content-center align-items-center flex-column col-10 col-md-4">
+            <img src="./images/produits.jpg" class="col-8">
+            <div class="d-flex justify-content-center my-4">
+                <button type="button" class="btn btn-success" id="button-less2">-</button>
+                <input class="mx-3 text-center" type="number" name="numberOfProducts" id="numberOfProducts2" class="my-4 mx-3" min="0" max="99" value="0"> 
+                <button type="button" class="btn btn-success" id="button-more2">+</button>
+            </div>    
+            <span id="avertissement2"></span>
+            <button type="button" class="btn btn-secondary my-4" id="button-reset2">reset</button>
+            <button type="button" class="btn btn-primary my-3" id="button-commander2">commander</button>
+            <span id="txt-cmd2"></span>  
+        </div>
+    </section>   
+    <script src="./app.js" type="text/javascript"></script>
+</body>
+</html>

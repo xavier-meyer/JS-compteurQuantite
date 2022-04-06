@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#id-section{
+    height: 100%;
+    width: 100%;
+}
+
+#txt-cmd, #txt-cmd2{
+    border: 3px solid black;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 3px;
+    background : rgb(204, 57, 31);
+    color: white;
+    display: none;
+}
+
+#panier{
+    position: absolute;
+    top:3%;
+    right:3%;
+}
+#nbProducts{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+}
+
+
+.img-size{
+    height: 70px;
+    width: 70px;
+}
+
